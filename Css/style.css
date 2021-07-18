@@ -1,0 +1,42 @@
+@font-face {
+    font-family: kanit;
+    src: url(/Fonts/Kanit-Regular.ttf);
+	font-family: opensans;
+	src: url(/Fonts/OpenSans-Light.ttf);
+	font-family: zendots;
+    src: url(/Fonts/ZenDots-Regular.ttf);
+}
+*{
+	font-family: opensans;
+	font-size: 15px;
+}
+body{
+	background-image: url(/Images/Background.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: left center;
+    background-attachment: fixed;
+}
+nav{
+	position: fixed;
+	background-color: #393975 !important;
+}
+.navbar-brand{
+    padding-left: 2%;
+	font-family: zendots;
+}
+a{
+	text-decoration: none !important;
+	color: white !important;
+}
+.footer{
+	position: fixed;
+	left: 0%;
+	bottom: 0%;
+	width: 100%;
+	text-align: center;
+    background-color: #6D53A5 !important;
+    color: white;
+    height: 23px;
+	font-size: 5px;
+}

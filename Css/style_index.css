@@ -1,0 +1,33 @@
+.logo{
+	position: fixed;
+	top: 30%;
+	left: 20%;
+}
+.logo img{
+	height: 250px;
+}
+form{
+    position: fixed;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 13%;
+}
+img{
+	height: 28px;
+}
+button{
+	height: 35px;
+}
+button:hover{
+	background-color: #6D53A5 !important;
+}
+button{
+	color: black !important;
+}
+.error{
+	color: red !important;
+}
